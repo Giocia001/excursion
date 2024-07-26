@@ -1,6 +1,5 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     background-color: black;
 }
 
@@ -9,9 +8,14 @@ header {
     font-size: 50px;
 }
 
+body {
+    text-align: center;
+}
+
 p {
     color: aquamarine;
     font-size: 16px;
+    text-underline-position: auto;
 }
 
 h2 {
@@ -20,5 +24,11 @@ h2 {
     font-size: 42px;
 }
 aside {
+    color: gray;
+    font-size: 21px;
+}
+
+footer {
+    text-align: right ;
     color: gray;
 }
